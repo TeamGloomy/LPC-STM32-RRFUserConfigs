@@ -1,0 +1,10 @@
+M291 P"Please wait while the nozzle is being heated up" R"Unloading PLA" T5   ; Display message
+T0
+G10 P0 S220 															 	  ; Set current tool temperature to 210C
+M116 																		  ; Wait for the temperatures to be reached
+M291 P"Feeding filament..." R"Hot-Pull PLA" T5 								  ; Display new message
+G1 E30 F300																	  ; Feed 50mm of filament at 600mm/min
+G1 E-150 F1600																  ; Retract 10mm of filament at 1800mm/min
+M400																		  ; Wait for moves to complete
+M292 																		  ; Hide the message
+G10 S0 																	  	  ; Turn off the heater again
