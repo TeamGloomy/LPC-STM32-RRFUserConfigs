@@ -1,0 +1,5 @@
+//Config for BIQU SKR v1.4
+lpc.board = biquskr_1.4
+sbc.lpcTfrReadyPin = 1.31
+adc.prefilter.enable =true
+stepper.numSmartDrivers = 4
