@@ -1,0 +1,9 @@
+# do not include firmware files
+firmware.bin
+firmware.cur
+
+# do not include these superfluous config files
+config-override.g
+config.json
+config.g.bak
+
