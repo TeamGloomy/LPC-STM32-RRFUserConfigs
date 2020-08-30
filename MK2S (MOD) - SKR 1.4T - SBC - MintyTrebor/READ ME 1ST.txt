@@ -1,2 +1,2 @@
-These configuration files are for a modifed Prusa MK2S running RRF (with SBC - RPi3), E3D Hemera, BL Touch, and 2209 stepper drivers. This configuration will not work on a astandard MK2S.
-Please see my repo for the mods : https://github.com/MintyTrebor/MK2s-SKR-1.4-TFT35-2209-RRF-Hemera
+These configuration files are for a modifed Prusa MK2S running RRF (with SBC - RPi3), E3D Hemera, BL Touch, and 2209 stepper drivers with Sensorless Homing. This configuration will not work on a standard MK2S without config changes.
+Please see my repo for the physical printer mods : https://github.com/MintyTrebor/MK2s-SKR-1.4-TFT35-2209-RRF-Hemera
