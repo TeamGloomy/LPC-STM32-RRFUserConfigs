@@ -21,7 +21,8 @@ M92 X100.00 Y100.00 Z400.00 E397.00            					; set steps per mm
 M566 X900.00 Y900.00 Z12.00 E120.00            					; set maximum instantaneous speed changes (mm/min)
 M203 X12000.00 Y10000.00 Z1200.00 E7200.00     					; set maximum speeds (mm/min)
 M201 X1250.00 Y1250.00 Z200.00 E10000.00       					; set accelerations (mm/s^2)
-M906 X800 Y650 Z550 E1197 I30                  					; set motor currents (mA) and motor idle factor in per cent
+;M906 X800 Y650 Z550 E1197 I30                  				; set motor currents (mA) and motor idle factor in per cent
+M906 X1100 Y850 Z750 E1197 I30                  				; set motor currents (mA) and motor idle factor in per cent
 M84 S30                                        					; Set idle timeout
 
 ; Axis Limits
@@ -34,7 +35,7 @@ M574 Y2 S1 P"ystop"                           					; configure active-high endst
 M574 Z1 S2                                    					; configure Zstop as BLTouch
 
 ; Z-Probe (BLTouch)
-M558 P9 H7 A2 B1 F100 S0.05 T8000 X0 Y0 Z1 C"^probe"       		; disable Z probe but set dive height, probe speed and travel speed
+M558 P9 H7 A2 B1 F100 S0.05 T6000 X0 Y0 Z1 C"^probe"       		; disable Z probe but set dive height, probe speed and travel speed
 M950 S0 C"servo0"                              					; Setup servo 0 as servo port on SKR
 G31 X-14.8 Y-42.7 Z1.99					   	   					; Probe Offset (3.725)
 
@@ -47,7 +48,8 @@ M950 H0 C"bed" T0                              					; create bed heater output o
 M307 H0 B0 S1.00                               					; disable bang-bang mode for the bed heater and set PWM limit
 M140 H0                                        					; map heated bed to heater 0
 M143 H0 S100                                   					; set temperature limit for heater 0 to 100C
-M308 S1 P"e0temp" Y"thermistor" T100000 B4138  					; configure sensor 1 as thermistor on pin e0temp
+;M308 S1 P"e0temp" Y"thermistor" T100000 B4138  				; configure sensor 1 as thermistor on pin e0temp
+M308 S1 P"e0temp" Y"thermistor" T100000 B4725 C7.06e-8  		; configure sensor 1 as thermistor on pin e0temp
 M950 H1 C"e0heat" T1                           					; create nozzle heater output on e0heat and map it to sensor 1
 M307 H1 B0 S1.00                               					; disable bang-bang mode for heater  and set PWM limit
 M308 S2 P"e1temp" Y"thermistor" A"Chamber Temp" T100000 B4138  	; configure sensor 2 as thermistor on pin e1temp
