@@ -9,9 +9,9 @@ G91                                                                            ;
 G1 H2 Z5 F12000                                                                ; lift Z relative to current position
 M400                                                                           ; wait for current moves to finish
 
-G1 H2 X0.01	                                                                   ; move X a small amount to enable motor
-M400					                                                       ; wait for stop
-G4 P200					                                                       ; delay to allow TMC to detect stopped state
+G1 H2 X0.01                                                                    ; move X a small amount to enable motor
+M400                                                                           ; wait for stop
+G4 P200                                                                        ; delay to allow TMC to detect stopped state
 
 G1 H1 X-255 F8000                                                              ; move quickly to X axis endstop and stop there (first pass)
 G1 H2 X5 F12000                                                                ; go back a few mm

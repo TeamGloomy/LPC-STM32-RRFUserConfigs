@@ -31,10 +31,13 @@ heat.tempSensePins = {bedtemp, e0temp, e1temp}; //Max of 3 entries
 adc.prefilter.enable = true
 	
 //ESP Settings
-8266wifi.espDataReadyPin = 0.28;
-8266wifi.lpcTfrReadyPin = 1.30;
-8266wifi.espResetPin = 1.31;
-8266wifi.serialRxTxPins = {RXPin, TXPin}
+//8266wifi.espDataReadyPin = 0.28;
+//8266wifi.lpcTfrReadyPin = 1.30;
+//8266wifi.espResetPin = 1.31;
+//8266wifi.serialRxTxPins = {RXPin, TXPin}
+
+//SBCs
+sbc.lpcTfrReadyPin = 1.31
 
 //TMC Smart Drivers
 stepper.numSmartDrivers = 5; //Adjust to the correct number of smart drivers
