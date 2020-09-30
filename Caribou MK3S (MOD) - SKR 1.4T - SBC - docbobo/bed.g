@@ -2,8 +2,8 @@
 ; Bed Leveling
 ; Thanks to @jay_s_uk for sharing.
 ; =====================================================================================================================
-if !move.axes[0].homed || !move.axes[1].homed	                                 ; If the printer hasn't been homed, home it
-  G28 XY	                                                                     ; home y and x
+if !move.axes[0].homed || !move.axes[1].homed                                  ; If the printer hasn't been homed, home it
+  G28 XY                                                                       ; home y and x
 
 M98 P"0:/sys/homez.g"                                                          ; home z
 
