@@ -11,6 +11,7 @@
 
 * I am using 2 big fans with E2.
 * Drivemapping: X Y Z Z2=E0 E1
+* I use 2 optical endstops on Z
 * No Filamentsensor
 * Also 4mm leadscrews so adjust your steps
 * Setup your Power-Loss settings, i use 27V input
@@ -38,4 +39,3 @@ or
 
 
 
-> Written with [StackEdit](https://stackedit.io/).
