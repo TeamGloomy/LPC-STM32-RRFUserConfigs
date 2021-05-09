@@ -18,6 +18,7 @@
 ## Notes
 
 * This is a QIDEX Configuration for 4 independent hotends but it is set to 2 hotends for normal IDEX
+* Configure your extruder offsets! 
 
 * No Filament Sensor
 
