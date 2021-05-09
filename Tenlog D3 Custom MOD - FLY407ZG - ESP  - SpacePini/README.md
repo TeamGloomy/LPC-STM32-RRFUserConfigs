@@ -17,6 +17,8 @@
 
 ## Notes
 
+* This is a QIDEX Configuration for 4 independent hotends but it is set to 2 hotends for normal IDEX
+
 * No Filament Sensor
 
 * Drivemapping: X0 Y1 Z2:4 U3 E5:6 P4  ----- X=0, Y=1, Z=2 and 3, X2=U=4 and Z2=V=3, extruder motors 8 and 9. Drive 2 and 4 is combined Z. 4 axes are visible
