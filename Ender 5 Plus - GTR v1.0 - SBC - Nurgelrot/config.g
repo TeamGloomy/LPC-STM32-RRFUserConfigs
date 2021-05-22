@@ -7,7 +7,7 @@
 ; General preferences
 G90                                             ; send absolute coordinates...
 M83                                             ; ...but relative extruder moves
-M550 P"Dabus-E5Pd"                              ; set printer name
+M550 P"E5P-Duet"                                ; set printer name
 
 
 ; Drives BTT TMc2209 v1.2's in UART mode.
@@ -35,11 +35,13 @@ M574 Y2 S1 P"ystop"                             ; configure active-high endstop 
 M574 Z1 S2                                      ; configure Z-probe endstop for low end on Z
 
 ; Filliment sensor
-M591 D0 P1 C"e0stop" S1							: Simple swtch tiype sensor
+M591 D0 P1 C"e0stop" S1							; Simple high switch type sensor
+
 
 ; Z-Probe
+; Bltouch trigger and gound (B&W) wired to zstop, 5v,signal and ground (red,org,bwn( to the bltouch servo pins
 M950 S0 C"servo0"                               ; create servo pin 0 for BLTouch
-M558 P9 C"^zstop" H5 F120 T7000                 ; set Z probe type to bltouch and the dive height + speeds, trigger wired to zstop as per creality norm.
+M558 P9 C"^zstop" H5 F120 T7000                 ; set Z probe type to bltouch and the dive height + speeds
 G31 P500 X-45 Y-7 Z1.68                         ; set Z probe trigger value, offset and trigger height
 M671 X-23:386 Y180:180 S3	                    ; Define lead scew locations
 M557 X5:315 Y5:347 P5:5                         ; define mesh grid
@@ -60,11 +62,11 @@ M308 S3 Y"mcu-temp" A"MCU"                      ; configure sensor 3 as board te
 
 ; Fans
 M950 F0 C"fan0" Q500                            ; create fan 0 on pin fan0 and set its frequency
-M106 P0 S0 H-1                                  ; set fan 0 value. Thermostatic control is turned off
+M106 P0 S0 H-1                                  ; set fan 0 value. Thermostatic control is turned off Tool
 M950 F1 C"fan1" Q500                            ; create fan 1 on pin fan1 and set its frequency
-M106 P1 S0 H3 T25                               ; set fan 1 value. Thermostatic control is turned on
+M106 P1 S0 H3 T25                               ; set fan 1 value. Thermostatic control is turned on Case Fan
 M950 F2 C"fan2" Q500                            ; create fan 2 on pin fan2 and set its frequency
-M106 P2 S0 H1 T45                               ; set fan 2 value. Thermostatic control is turned on
+M106 P2 S0 H1 T45                               ; set fan 2 value. Thermostatic control is turned on Heatsink
 
 ; Tools
 M563 P0 S"MircoSwiss" D0 H1 F0                  ; define tool 0
@@ -76,5 +78,5 @@ G10 P0 R0 S0                                    ; set initial tool 0 active and 
 ; Miscellaneous
 M575 P1 S1 B57600                               ; enable support for PanelDue
 T0                                              ; select first tool
-M501 											; pulling Config overrides file...
+M501 											; config overrides file...
 
