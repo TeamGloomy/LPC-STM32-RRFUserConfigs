@@ -1,0 +1,2 @@
+
+M118 P2 S"//action::prompt_begin Resuming"  ;   allow the screen to know when a job has been cancelled.
