@@ -18,7 +18,7 @@ M569 P3 S1 D2                                      ; physical drive 3 goes backw
 M569 P4 S0 V40                                     ; physical drive 4 goes forwards using default driver timings
 M584 X0 Y1 Z2:4 E3                                 ; set drive mapping with dual Z
 M350 X16 Y16 Z16 E16 I1                            ; configure microstepping with interpolation
-M92 X80.00 Y80.00 Z800.00 E415.00                  ; set steps per mm creality standard with Bondtech BMG extruder
+M92 X80.00 Y80.00 Z800.00 E415.00                  ; set steps per mm Bondtech BMG extruder
 M566 X1200.00 Y1200.00 Z24.00 E300.00              ; set maximum instantaneous speed changes (mm/min)
 M203 X9000.00 Y9000.00 Z600.00 E6000.00            ; set maximum speeds (mm/min)
 M201 X500.00 Y500.00 Z100.00 E5000.00              ; set accelerations (mm/s^2)
