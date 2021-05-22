@@ -41,7 +41,7 @@ M591 D0 P1 C"e0stop" S1							; Simple high switch type sensor
 ; Z-Probe
 ; Bltouch trigger and gound (B&W) wired to zstop, 5v,signal and ground (red,org,bwn( to the bltouch servo pins
 M950 S0 C"servo0"                               ; create servo pin 0 for BLTouch
-M558 P9 C"^zstop" H5 F200 T7000 A5              ; set Z probe type to bltouch and the dive height + speeds
+M558 P9 C"^zstop" H5 F200 T7000 A3              ; set Z probe type to bltouch and the dive height + speeds
 G31 P500 X-45 Y-7 Z1.68                         ; set Z probe trigger value, offset and trigger height
 M671 X-23:386 Y180:180 S3	                    ; Define lead scew locations
 M557 X5:315 Y5:347 P5:5                         ; define mesh grid
