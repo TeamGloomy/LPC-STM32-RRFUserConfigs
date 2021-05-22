@@ -8,9 +8,9 @@ G1 H1 X365 Y365 F1800 ; move quickly to X and Y axis endstops and stop there (fi
 G1 H2 X-5 Y-5 F6000   ; go back a few mm
 G1 H1 X365 Y365 F360  ; move slowly to X and Y axis endstops once more (second pass)
 G90                   ; absolute positioning
-G1 X225 Y187 F6000      ; go to first bed probe point and home Z
+G1 X225 Y187 F6000    ; move probe to ceter of bed and home Z
 G30                   ; home Z by probing the bed
-G1 X180 Y180 F6000    ; Mov to center cuz I'm anal
+G1 X180 Y180 F6000    ; Move nozel to center cuz I'm anal
 
 ; Uncomment the following lines to lift Z after probing
 ;G91                  ; relative positioning
