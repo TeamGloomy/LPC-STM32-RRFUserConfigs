@@ -18,8 +18,8 @@ M586 P2 S0                                      ; disable Telnet
 M569 P0 S0 T                                    ; physical drive 0 goes backwards using TMC5160 driver timings
 M569 P1 S0 T                                    ; physical drive 1 goes backwards using TMC5160 driver timings
 M569 P2 S0 T                                    ; physical drive 2 goes backwards using TMC5160 driver timings
-M569 P3 S0 T                                    ; physical drive 3 goes backwards using TMC5160 driver timings
-M569 P4 S1 T                                    ; physical drive 4 goes forwards using TMC5160 driver timings
+M569 P3 S1 T                                    ; physical drive 3 goes forwards using TMC5160 driver timings
+M569 P4 S0 T                                    ; physical drive 4 goes backwards using TMC5160 driver timings
 M584 X0 Y1 Z2:4 E3                              ; set drive mapping
 M350 X16 Y16 Z16 E16 I1                         ; configure microstepping with interpolation
 M92 X80.00 Y80.00 Z800.00 E415.00               ; set steps per mm Bondtech BMG extruder
