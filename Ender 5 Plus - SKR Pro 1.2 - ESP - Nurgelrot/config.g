@@ -46,6 +46,7 @@ M591 D0 P1 C"e0stop" S1							; Simple high switch type sensor
 M950 S0 C"servo0"                               ; create servo pin 0 for BLTouch
 M558 P9 C"^zstop" H5 F220 T7000 A5              ; set Z probe type to bltouch and the dive height + speeds
 G31 P500 X0 Y0 Z2.5                             ; set Z probe trigger value, offset and trigger height
+M671 X-23:386 Y180:180 S3			; lead screws
 M557 X5:315 Y5:345 S20                          ; define mesh grid
 
 ; Heaters
