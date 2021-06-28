@@ -1,0 +1,10 @@
+//Config for SKR Pro v1.1 and 1.2
+board = biquskrpro_1.1
+8266wifi.espDataReadyPin = A.8
+8266wifi.TfrReadyPin = G.4
+8266wifi.espResetPin = F.12
+8266wifi.serialRxTxPins = { D.9, D.8 } 
+heat.tempSensePins = { F.6, F.3, F.4, F.5 }
+stepper.numSmartDrivers = 6
+stepper.num5160Drivers = 6
+stepper.spiChannel = 2

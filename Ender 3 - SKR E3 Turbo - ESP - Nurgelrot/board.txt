@@ -1,0 +1,11 @@
+//Config for SKR E3 Turbo
+board = biquskr_e3t
+//wifi pins
+8266wifi.espDataReadyPin = 0.19
+8266wifi.TfrReadyPin = 0.20
+8266wifi.espResetPin = 2.8
+heat.tempSensePins = { 0.25, 0.24, 0.23 }
+8266wifi.serialRxTxPins = { 0.3, 0.2} 
+serial.aux.rxTxPins = { nopin, nopin }
+
+stepper.numSmartDrivers = 5

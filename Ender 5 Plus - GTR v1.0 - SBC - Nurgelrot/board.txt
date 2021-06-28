@@ -16,4 +16,4 @@ sbc.TfrReadyPin = B.10
 heat.tempSensePins = { C.0, C.1, C.2, C.3, A.3, F.9, F.10, F.7, F.5 }
 stepper.numSmartDrivers = 6
 // External Display settings
-serial.aux.rxTxPins = {PA.10, PA.9};
+serial.aux.rxTxPins = {PA.10, PA.9}; 
