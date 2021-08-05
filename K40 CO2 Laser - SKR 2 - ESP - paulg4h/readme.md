@@ -36,6 +36,6 @@ use the files in sys sub folder to setup your K40 and check the machine limits a
 
 ## ToDo
 
-* the daemon.g whom should check the water flow and temperature and pause the job is currently not working because there is an issue with the RRF Version 3.3_2 (2021-06-19) which causes the board to reboot after about 15 minutes uptime when there is some SD I/O interaction.
+* ~~the daemon.g whom should check the water flow and temperature and pause the job is currently not working because there is an issue with the RRF Version 3.3_2 (2021-06-19) which causes the board to reboot after about 15 minutes uptime when there is some SD I/O interaction.~~ --> fixed in current RRF 3.3.0_5 (2021-07-25) 
 
-Glommyandy is informed and will check / correct this in the next release I guess.
+
