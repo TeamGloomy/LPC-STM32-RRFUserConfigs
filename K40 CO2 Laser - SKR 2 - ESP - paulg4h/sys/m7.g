@@ -1,0 +1,1 @@
+M42 P0 S1       ; enable Air assist
