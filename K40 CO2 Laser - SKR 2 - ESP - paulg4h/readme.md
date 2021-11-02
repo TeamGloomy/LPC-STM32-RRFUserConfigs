@@ -9,7 +9,7 @@ I rebuild my K40 CO2 Laser with RRF and water flow and temperature sensor, motor
  - to not start a job when the lid is open
  - pause a job when the lid is opened while processing
  - pause when the water flow / temperature is out of range *
- - red laser for positionining the working laser (see 3d folder for stl I use to mount it)
+ - red laser for positionining the working laser (see 3d folder for stl I use to mount it, M3 melt nut needed)
 
 ## Hardware
 
