@@ -9,3 +9,5 @@
 G1 R1 S0 F12000         ; go back to the last print move
 
 M7			; Run m7.g
+
+G4 S1

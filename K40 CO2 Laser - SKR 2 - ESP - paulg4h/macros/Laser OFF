@@ -1,0 +1,10 @@
+; move main laser headto current red laser position
+G1 F5000 X{move.axes[0].machinePosition - 15.5} Y{move.axes[1].machinePosition - 11.5}
+
+; set the current position as X and Y zero position
+G10 L20 P1 X0 Y0
+
+M118 P3 S"Workplace zero set"
+
+; switch of red laser
+M106 P2 S0

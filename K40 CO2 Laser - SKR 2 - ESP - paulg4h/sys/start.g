@@ -6,3 +6,5 @@ if sensors.gpIn[0].value = 1                                                   ;
 	M118 S"close lid first to start job!"
 else
     M7			; Run m7.g
+
+G4 S1

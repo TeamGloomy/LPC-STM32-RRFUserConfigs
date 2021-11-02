@@ -1,0 +1,3 @@
+; G10 L2 X{move.axes[0].machinePosition} Y{move.axes[1].machinePosition}
+
+G10 L2 X0 Y0                        ;Reset workplace coordinates to zero

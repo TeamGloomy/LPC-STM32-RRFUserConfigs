@@ -1,0 +1,3 @@
+G10 L2 X0 Y0                        ; Reset workplace coordinates to zero
+
+M106 P2 S0.7                        ; switch on red laser diode
