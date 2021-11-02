@@ -1,7 +1,7 @@
 # K40 CO2 Laser
 
 ## history
- November 2021, add red laser and macros.
+ November 2021, add red laser, stl to mount and macros.
 
 I rebuild my K40 CO2 Laser with RRF and water flow and temperature sensor, motorized bed, lid switch, resume button, air assist valve
 
@@ -9,7 +9,7 @@ I rebuild my K40 CO2 Laser with RRF and water flow and temperature sensor, motor
  - to not start a job when the lid is open
  - pause a job when the lid is opened while processing
  - pause when the water flow / temperature is out of range *
- - red laser for positionining the working laser 
+ - red laser for positionining the working laser (see 3d folder for stl I use to mount it)
 
 ## Hardware
 
