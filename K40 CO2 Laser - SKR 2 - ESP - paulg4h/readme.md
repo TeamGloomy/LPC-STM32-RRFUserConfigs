@@ -1,7 +1,7 @@
 # K40 CO2 Laser
 
 ## history
- Novmeber 2021, add red laser and macros.
+ November 2021, add red laser and macros.
 
 I rebuild my K40 CO2 Laser with RRF and water flow and temperature sensor, motorized bed, lid switch, resume button, air assist valve
 
