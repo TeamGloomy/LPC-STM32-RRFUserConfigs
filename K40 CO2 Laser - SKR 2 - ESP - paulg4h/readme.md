@@ -1,7 +1,7 @@
 # K40 CO2 Laser
 
 ## history
- November 2021, add red laser, stl to mount and macros.
+ November 2021, add red laser, stl to mount and macros and link to motorized bed.
 
 I rebuild my K40 CO2 Laser with RRF and water flow and temperature sensor, motorized bed, lid switch, resume button, air assist valve
 
@@ -23,6 +23,9 @@ I rebuild my K40 CO2 Laser with RRF and water flow and temperature sensor, motor
   - end stop switch like: https://www.amazon.com/-/de/dp/B06XFL4MZ2/ref=sr_1_21?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=end+stop+switch&qid=1625996215&sr=8-21
   - resume button like: https://www.amazon.com/-/de/dp/B08DV7TFVQ/ref=twister_B08ZSWCYCD?_encoding=UTF8&psc=1
   - red laser diode, 5V
+
+The config also includes the controll for an motorized laser bed I create and publish the STL and FreeCad files here:
+https://www.thingiverse.com/thing:4869148
 
 ## Wiring
 
