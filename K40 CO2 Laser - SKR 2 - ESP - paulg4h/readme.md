@@ -46,4 +46,10 @@ use the files in sys sub folder to setup your K40 and check the machine limits a
 
 * ~~the daemon.g whom should check the water flow and temperature and pause the job is currently not working because there is an issue with the RRF Version 3.3_2 (2021-06-19) which causes the board to reboot after about 15 minutes uptime when there is some SD I/O interaction.~~ --> fixed in current RRF 3.3.0_5 (2021-07-25) 
 
+## Lightburn Settings
 
+to use Lightburn to create the GCode for the K40 I use this settings there:
+
+![wiring](img/K40_Lightburn_settings_1.png)
+
+![wiring](img/K40_Lightburn_settings_2.png)
