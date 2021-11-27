@@ -1,7 +1,7 @@
 # K40 CO2 Laser
 
 ## history
- November 2021, add red laser, stl to mount and macros and link to motorized bed.
+ November 2021, add red laser, stl to mount and macros and link to motorized bed and Lightburn settings.
 
 I rebuild my K40 CO2 Laser with RRF and water flow and temperature sensor, motorized bed, lid switch, resume button, air assist valve
 
@@ -41,6 +41,9 @@ To get the best web Interface (Duet Web Control) for Laser use this Version to g
 https://github.com/Duet3D/DWC-CNC/releases
 
 use the files in sys sub folder to setup your K40 and check the machine limits and stepper direction as usual.
+
+## red laser details
+https://forum.duet3d.com/topic/26130/red-laser-diode-to-align-worksheet
 
 ## ToDo
 
