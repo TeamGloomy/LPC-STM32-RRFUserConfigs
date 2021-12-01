@@ -85,9 +85,9 @@ https://github.com/gloomyandy/DuetWiFiSocketServer/releases
 create a sub folder "firmware" on the SD Card and download the DuetWiFiServer-esp32-stm32f4-1.26-08.bin there and rename it to DuetWiFiServer.bin
 
 Download latest DWC (DuetWebControl) for CNC from here:
-https://github.com/Duet3D/DWC-CNC/releases/download/3.3.0-CNC08/DuetWebControl-SD.zip
+https://github.com/Duet3D/DWC-CNC/releases/
 
-Extract the archive and place the content in the www folder of the SD Card
+Extract the archive and place the content in the www folder of the SD Card --> this Version do have som additions to show the sensor values in DWC status screen, where the water flow and also the water temperature is shown.
 
 Download the sys folder from this repository and place it on the sd card root either.
 
