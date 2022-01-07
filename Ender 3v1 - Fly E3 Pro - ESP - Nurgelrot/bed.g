@@ -4,7 +4,7 @@
 
 M561 							; Clear any bed transform
 G29 S2							; Clear bed height map
-M671 X-26:366 Y118:118 S3		; Set phisical location of the lead screw in reation to the bed coords
+M671 X-26:266 Y118:118 S3		; Set phisical location of the lead screw in reation to the bed coords
 G28								; home all
 
 ; Probe 2-point
