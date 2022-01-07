@@ -1,0 +1,10 @@
+//Config for Fly-E3-Pro
+board = fly_e3_pro
+//WiFi pins
+8266wifi.espDataReadyPin = E.13;
+8266wifi.TfrReadyPin = E.14;
+8266wifi.espResetPin = E.15;
+8266wifi.serialRxTxPins = { D.9, D.8 } ;
+heat.tempSensePins = { A.3 , A.4, A.1 }
+stepper.numSmartDrivers = 5
+serial.aux.rxTxPins = { A.10, A.9 }
