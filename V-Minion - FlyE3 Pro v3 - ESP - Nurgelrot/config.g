@@ -21,7 +21,7 @@ M569 P2 S0                                           ; physical drive 2 goes for
 M569 P3 S1                                           ; physical drive 3 goes forwards using TMC2209 driver timings
 M584 X0 Y1 Z2 E3                                     ; set drive mapping
 M350 X16 Y16 Z16 E16 I1                              ; configure microstepping with interpolation
-M92 X80.00 Y80.00 Z400.00 E690.00                    ; set steps per mm
+M92 X80.00 Y80.00 Z400.00 E690.00                    ; set steps per mm (orbiter2 extruder)
 M566 X900.00 Y900.00 Z60.00 E120.00                  ; set maximum instantaneous speed changes (mm/min)
 M203 X6000.00 Y6000.00 Z600.00 E1200.00              ; set maximum speeds (mm/min)
 M201 X1500.00 Y1500.00 Z120.00 E250.00                  ; set accelerations (mm/s^2)
