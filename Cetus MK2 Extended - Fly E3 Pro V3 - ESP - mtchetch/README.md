@@ -3,6 +3,7 @@ Print volume 180x180x280
 
 Using E3 Fly Pro V3 board with the included PT100 thermal probe (variant)
 
+Inspired by https://www.cnckitchen.com/blog/cetus-mk3-to-mellow-fly-rrf-e3-conversion
 ## Modifications
 Added a stabilizing brace https://www.thingiverse.com/thing:2924407
 
@@ -24,8 +25,10 @@ The pin out diagram is done while viewing the ribbon cable end facing you. Be su
 
 ![Alt text](ribbon_pinout.jpg?raw=true "Ribbon, sensor and heater pin out")
 
-The connections were made using an old IDE cable pin header and soldering wires directly to that. Heater wires need to be doubled up and the PT100 sensor needs to be converted to 3-pin as per the E3 Fly Pro V3 instruction page https://teamgloomy.github.io/fly_e3_pro_general.html.
+The connections were made using a 16pin piece of an old IDE cable pin header and soldering wires directly to that. That way the header can be easily unplugged from the ribbon cable for servicing. 
 
-The board was powered with the original Cetus power supply that is really a 120w HP power supply. An adapter cable was made with the HP DC jack so that it could be used directly.
+Heater wires need to be doubled up and the PT100 sensor needs to be converted to 3-pin as per the E3 Fly Pro V3 instruction page https://teamgloomy.github.io/fly_e3_pro_general.html.
 
-The cooling fan needs to be installed so that the minus terminal of the fan is in the fan connector and the plus terminal is connected to a pin on the board that suplies +5V. I used the screen connector for that since I do not use a screen.
+The board was powered with the original Cetus power supply that is really a 120w HP laptop power supply. An adapter cable was made with the HP dc jack so that it could be used directly.
+
+The cooling fan needs to be installed so that the minus terminal of the fan is in the fan connector and the plus terminal is connected to a pin on the board that suplies +5V. I used the screen connector for that since I do not use a screen. The daughter board on top of the extruder needs to be insulated for to fan negative side switching to work.
